@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing Web and APIs" >
+    <test name="API Tests" >
+        <classes>
+            <class name="apis.ListUsersTest" />
+            <class name="apis.AddUserTest" />
+        </classes>
+    </test>
+
+    <test name="Web Tests" >
+        <classes>
+            <class name="login.LoginTests" />
+            <class name="register.RegisterTests" />
+        </classes>
+    </test>
+</suite>
